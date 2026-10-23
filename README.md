@@ -153,7 +153,7 @@ The app includes 25 questions across three levels, for example:
 - Partnerships, bowling economy and consistency
 - Quarterly batting trend and career phase (Q25)
 
-> **Note on Q25:** the brief asks for quarterly trends over 6+ quarters. The free API tier provides only a few weeks of matches, so Q25 uses weekly periods and relaxed minimums on the live data. The original quarterly logic is verified on synthetic multi-year history in `tests/test_history_queries.py`. Other history-based questions (Q14, Q16, Q18, Q22-Q24) use relaxed minimums for the same reason, and each SQL file says so in its header comment.
+
 
 ## ⚠️ Known Limitations
 - The free API tier limits daily calls, so only about two weeks of matches are loaded.
