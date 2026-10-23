@@ -1,6 +1,10 @@
 .env
-data/*.db
+.streamlit/secrets.toml
+data/api_cache.db
+data/demo.db
+data/*.backup*.db
 data/raw/
+logs/
 __pycache__/
 .venv/
 *.pyc
